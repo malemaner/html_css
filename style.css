@@ -1,0 +1,96 @@
+/* General Body Styles */
+body {
+    background-image: linear-gradient(rgba(242, 240, 245, 0.9), rgba(242, 240, 245, 0.9)), url('/image.webp'); /* Semi-transparent overlay */
+    background-color: #f2f0f5; /* Elegant light purple background color */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+/* Header Styles */
+h1, h2, h3 {
+    font-family: 'Georgia', serif; /* Elegant font for headers */
+    color: #6a1b9a; /* Deep purple color for headers */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block; /* Center images */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Link Styles */
+a {
+    color: #d81b60; /* Attractive pink color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#contact p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
