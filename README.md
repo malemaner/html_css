@@ -1,4 +1,3 @@
-```markdown
 # Fashion Blog Webpage
 
 Welcome to the repository for my fashion blog webpage. This project contains a simple yet elegant webpage designed for fashion enthusiasts.
